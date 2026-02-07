@@ -1,4 +1,5 @@
-Process States (Simple & Practical)
+# Process States (Simple & Practical)
+![Alt text](image_url) 
 •	Running (R)
 o	Process is currently using the CPU or ready to run.
 o	Example: a script or app actively executing.
@@ -16,16 +17,16 @@ o	Process finished execution but parent hasn’t collected its status.
 o	Uses no CPU, but still appears in process list.
 o	Too many zombies = bad process handling.
 ________________________________________
-5 Commands Used Daily (Must-Know)
-•	ps
-o	Check running processes.
-o	Example: ps -ef
-•	top / htop
-o	Real-time CPU, memory, and process monitoring.
-•	grep
-o	Search text/logs quickly.
-o	Example: grep error logfile.log
-•	cd
+# 5 Commands Used Daily (Must-Know)
+- ps
+-	Check running processes.
+- Example: ps -ef
+- top / htop
+-	Real-time CPU, memory, and process monitoring.
+-	grep
+-	Search text/logs quickly.
+- Example: grep error logfile.log
+- cd
 o	Navigate between directories.
 o	Example: cd /var/log
 •	ls
